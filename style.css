@@ -1,0 +1,147 @@
+body{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+
+    width: 100%;
+    height: auto;
+    background-color:141414;
+   
+}
+
+.header {
+
+    width: 100%;
+    height: 80px;
+    background-color: 141414;
+    display: flex;
+
+}
+
+#title{
+
+    width: 1200px;
+    height: 80px;
+    margin:0 auto;
+    justify-content: end;
+    display: flex;
+
+}
+
+#title h1{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-self: center;
+    color:#fff;
+    margin: 20px;
+    
+}
+
+#links ul{
+
+    list-style: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9px 16px;
+   
+}
+
+#links li{
+
+    float: left;
+    margin-left: 60px;
+    font-family: Helvetica;
+}
+
+li a {
+
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
+}
+
+li a:hover {
+
+    
+    color: rgb(199, 196, 196);
+
+}
+
+.smallposter{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.smallposter div {
+    flex-grow: 1;
+    width: 250px;
+    margin: 20px;
+    min-width: 150px;
+}
+
+img{
+
+    width: 100%;
+    min-width: 150px;
+
+}
+
+
+
+@media screen and (max-width: 700px){
+ 
+    .container {
+
+        height: auto;
+        
+    }
+
+    #links  li{
+
+        display: none;
+
+    }
+
+    #title{
+
+        width: 100%;
+        justify-content: center;
+        margin: 0 auto;
+
+    }
+
+
+    .smallposter{
+
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .smallposter img{
+
+        width: 100%;
+        min-width: 150px;
+        
+    }
+    
+}
+
+
+
